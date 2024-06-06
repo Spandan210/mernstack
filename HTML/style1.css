@@ -1,0 +1,14 @@
+#lorem{
+    text-align: center;
+    font-size: 18px;
+    color: crimson;
+}
+
+#second{
+    text-shadow: 10cap;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color:rgb(196, 48, 110)
+}

@@ -1,0 +1,39 @@
+.heading{
+    margin-top:-70px;
+    margin-bottom:-70px;
+    background-color:blanchedalmond;
+    text-align: center;
+    font-size: 50px;
+    color:cadetblue;
+    padding: 5px;
+}
+.body{
+    padding:0px 10px;
+}
+.links{
+    text-align: center;
+    font-size: large;
+}
+    a:hover{
+        color: #6f06d8;
+    } */
+    a:link{
+        color: #aecf37;
+    } 
+    a:active{
+        color: #14a14a;
+    }
+    a:visited{
+        color: purple;
+    }
+
+.footer{
+    margin-top:-18px;
+    background-color:blanchedalmond;
+    text-align: center;
+    padding: 4px;
+    color:cadetblue;
+}
+hr{
+    border: whitesmoke;
+}
