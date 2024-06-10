@@ -1,0 +1,74 @@
+h2{
+    text-align: center;
+    font-size: larger;
+    font-family: cursive;
+    font-style: italic;
+}
+.breakfast{
+    margin: 0 10vw;
+    display: inline-block;
+}
+.breakfast .fast-img{
+    float: left;
+    width:350px;
+    height:400px;
+    margin: 10px;
+    border-radius: 0%;
+    margin-right: 10px; 
+
+}
+.breakfast p{
+    font-size: large;
+    font-family: cursive;
+    font-style: italic;
+    overflow: hidden; /* Ensure text wraps around the floated image */
+}
+
+
+.mains{
+    margin: 0 10vw;
+    display: inline-block;
+}
+.mains .main-img{
+    float: right;
+    width:350px;
+    height:400px;
+    margin: 10px;
+    border-radius: 0%;
+    margin-right: 10px; 
+
+}
+.mains p{
+    font-size: large;
+    font-family: cursive;
+    font-style: italic;
+    overflow: hidden; /* Ensure text wraps around the floated image */
+}
+
+.drinks{
+    margin: 0 10vw;
+    display: inline-block;
+}
+.drinks .hot-img{
+    float: left;
+    width:350px;
+    height:400px;
+    margin: 10px;
+    border-radius: 0%;
+    margin-right: 10px; 
+
+}
+.drinks p{
+    font-size: large;
+    font-family: cursive;
+    font-style: italic;
+    overflow: hidden; /* Ensure text wraps around the floated image */
+}
+
+ul{
+    font-size: large;
+    font-family: cursive;
+    font-style: italic;
+    list-style-type: none;
+    text-align: justify;
+}

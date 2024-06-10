@@ -1,0 +1,14 @@
+.flex-container{
+    display: flex;
+    background-color:blanchedalmond;
+}
+.flex-container>div{
+    background-color:azure;
+    margin: 10px;
+    padding: 20px;
+    font-size:30px;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+}
+
