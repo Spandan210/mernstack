@@ -21,7 +21,7 @@ h2{
     font-size: large;
     font-family: cursive;
     font-style: italic;
-    overflow: hidden; /* Ensure text wraps around the floated image */
+    /* overflow: hidden; Ensure text wraps around the floated image */
 }
 
 
@@ -42,7 +42,7 @@ h2{
     font-size: large;
     font-family: cursive;
     font-style: italic;
-    overflow: hidden; /* Ensure text wraps around the floated image */
+    /* overflow: hidden; Ensure text wraps around the floated image */
 }
 
 .drinks{
@@ -62,7 +62,7 @@ h2{
     font-size: large;
     font-family: cursive;
     font-style: italic;
-    overflow: hidden; /* Ensure text wraps around the floated image */
+    /* overflow: hidden; Ensure text wraps around the floated image */
 }
 
 ul{

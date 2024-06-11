@@ -26,7 +26,7 @@ h3{
 }
 
 .intro p{
-    overflow: hidden;
+    /* overflow: hidden; */
     font-size: large;
     font-family: cursive;
     font-style: italic;
@@ -49,7 +49,7 @@ h3{
     font-size: large;
     font-family: cursive;
     font-style: italic;
-    overflow: hidden; /* Ensure text wraps around the floated image */
+    /* overflow: hidden; Ensure text wraps around the floated image */
 }
 
 .coffee{
@@ -69,7 +69,7 @@ h3{
     font-size: large;
     font-family: cursive;
     font-style: italic;
-    overflow: hidden; /* Ensure text wraps around the floated image */
+    /* overflow: hidden; Ensure text wraps around the floated image */
 }
 
 .food{
@@ -89,7 +89,7 @@ h3{
     font-size: large;
     font-family: cursive;
     font-style: italic;
-    overflow: hidden; /* Ensure text wraps around the floated image */
+    /* overflow: hidden; Ensure text wraps around the floated image */
 }
 
 .space{
@@ -109,7 +109,7 @@ h3{
     font-size: large;
     font-family: cursive;
     font-style: italic;
-    overflow: hidden; /* Ensure text wraps around the floated image */
+    /* overflow: hidden; Ensure text wraps around the floated image */
 }
 
 .commit{
@@ -129,7 +129,7 @@ h3{
     font-size: large;
     font-family: cursive;
     font-style: italic;
-    overflow: hidden; /* Ensure text wraps around the floated image */
+    /* overflow: hidden; Ensure text wraps around the floated image */
 }
 
 .visit p{
