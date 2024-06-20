@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Event Handling</title>
+        <script src="event.js" defer></script>
+    </head>
+    <body>
+        <h1>Javascript HTML Events</h1>
+        <P>Click the button to enact an action!</P>
+        <button id="myEvent" onClick={displayDate()}>The current time is</button>
+        <p id="demo"></p>
+        <script>
+                const buttonElement=document.getElementById('myEvent');
+                buttonElement.addEventListener('click',function(){
+                console.log('Button Clicked.')
+            })            
+            function displayDate(){
+                document.getElementById("demo").innerHTML = Date();
+                myEvent.style.color="green";
+            }
+        </script>
+    </body>
+</html>

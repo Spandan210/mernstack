@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 200px;
+    height: 400px;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounce 2s ease-in-out infinite;
+}
+
+/* Keyframes for Bouncing Effect */
+@keyframes bounce {
+    0%, 100% {
+        top: 0;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        top: calc(100% - 50px); /* Subtract ball's height to keep it within the container */
+        animation-timing-function: ease-out;
+    }
+}

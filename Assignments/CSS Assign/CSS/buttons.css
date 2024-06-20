@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+:root {
+    --bg-color: white;
+    --text-color: black;
+    --button-bg-color: #007bff;
+    --button-text-color: white;
+    --button-hover-bg-color: #0056b3;
+    --button-hover-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Theme */
+body.dark-mode {
+    --bg-color: #333;
+    --text-color: white;
+    --button-bg-color: #0056b3;
+    --button-text-color: white;
+    --button-hover-bg-color: #003366;
+    --button-hover-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+/* Button Styles */
+.hover-button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.hover-button:hover {
+    background-color: var(--button-hover-bg-color);
+    transform: scale(1.1);
+    box-shadow: var(--button-hover-shadow);
+}

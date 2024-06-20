@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.formContainer{
+    text-align:left;
+    position: relative;
+}
+
+.formContainer .text-input {
+    width:15rem;
+    padding : 10px 40px 10px 10px;
+}
+
+.name{
+    margin-bottom: 20px;
+}
+
+.mail{
+    margin-bottom: 20px;
+}
+.pass{
+    margin-bottom: 20px;
+}
+.re-pass{
+    margin-bottom: 20px;
+}
+/* .formContainer .input-icon{
+    position:absolute;
+    right : 2rem;
+    top:69%;
+    transform:translateY(-50%);
+    width:20px;
+    height:20px;
+}
+
+.formContainer .input-icon2{
+    position:absolute;
+    right : 2rem;
+    top:94%;
+    transform:translateY(-50%);
+    width:20px;
+    height:20px;
+} */
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0 0 8px 0;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    margin: 0 0 16px 0;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
