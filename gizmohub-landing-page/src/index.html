@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GizmoMax - The Ultimate Tech Gadget</title>
+  <link href="/gizmohub-landing-page/src/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="bg-white shadow-md fixed w-full z-10">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold">GizmoHub</a>
+      <nav class="hidden md:flex space-x-4">
+        <a href="#home" class="text-gray-700">Home</a>
+        <a href="#product" class="text-gray-700">Product</a>
+        <a href="#reviews" class="text-gray-700">Reviews</a>
+        <a href="#contact" class="text-gray-700">Contact</a>
+      </nav>
+      <button id="menu-btn" class="block md:hidden">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+    </div>
+    <div id="menu" class="hidden md:hidden">
+      <a href="#home" class="block px-4 py-2 text-gray-700">Home</a>
+      <a href="#product" class="block px-4 py-2 text-gray-700">Product</a>
+      <a href="#reviews" class="block px-4 py-2 text-gray-700">Reviews</a>
+      <a href="#contact" class="block px-4 py-2 text-gray-700">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex items-center justify-center bg-gray-100">
+    <div class="text-center">
+      <div class="imageContainer">
+        <img src="/gizmohub-landing-page/assets/first.jpeg" alt="GizmoMax" width="350">
+        <img src="/gizmohub-landing-page/assets/second.jpeg" alt="GizmoMax" width="350">
+        <img src="/gizmohub-landing-page/assets/third.jpeg" alt="GizmoMax" width="350">
+      </div>
+      <h1 class="text-4xl font-bold mt-4">Experience the Future with GizmoMax</h1>
+      <p class="mt-2 text-gray-600">The ultimate tech gadget to simplify your life.</p>
+      <a href="#product" class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Product Details Section -->
+  <section id="product" class="container mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center">GizmoMax Features</h2>
+    <div class="flex flex-col md:flex-row items-center mt-8">
+      <div class="md:w-1/2">
+        <img src="/gizmohub-landing-page/assets/product.jpg" alt="GizmoMax" class="w-full">
+      </div>
+      <div class="md:w-1/2 mt-8 md:mt-0 md:pl-16">
+        <p class="text-gray-600 mb-4">GizmoMax is packed with amazing features that make it the perfect choice for tech enthusiasts.</p>
+        <ul class="list-disc pl-5 text-gray-600">
+          <li>High-resolution display</li>
+          <li>Long-lasting battery life</li>
+          <li>Advanced connectivity options</li>
+          <li>Compact and portable design</li>
+        </ul>
+        <div class="mt-6">
+          <span class="text-2xl font-bold">$299</span>
+          <a href="#" class="ml-4 inline-block bg-green-500 text-white py-2 px-4 rounded">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews Section -->
+  <section id="reviews" class="bg-gray-100 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center">Customer Reviews</h2>
+      <div class="mt-8 space-y-8">
+        <div class="bg-white p-6 shadow rounded">
+          <p class="text-gray-600">"GizmoMax is a game-changer. The battery life is incredible, and the display is stunning. Highly recommended!"</p>
+          <div class="mt-4 flex items-center">
+            <span class="font-bold text-gray-700">John Doe</span>
+            <span class="ml-4 text-yellow-500">
+              ★★★★★
+            </span>
+          </div>
+        </div>
+        <div class="bg-white p-6 shadow rounded">
+          <p class="text-gray-600">"A must-have gadget for tech lovers. It has everything I need and more. Fantastic product!"</p>
+          <div class="mt-4 flex items-center">
+            <span class="font-bold text-gray-700">Jane Smith</span>
+            <span class="ml-4 text-yellow-500">
+              ★★★★★
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center">Contact Us</h2>
+    <form class="mt-8 max-w-md mx-auto">
+      <div class="mb-4">
+        <label for="name" class="block text-gray-600">Name</label>
+        <input type="text" id="name" class="w-full border border-gray-300 rounded p-2">
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-gray-600">Email</label>
+        <input type="email" id="email" class="w-full border border-gray-300 rounded p-2">
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-gray-600">Message</label>
+        <textarea id="message" class="w-full border border-gray-300 rounded p-2"></textarea>
+      </div>
+      <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2024 GizmoHub. All rights reserved.</p>
+      <div class="mt-4">
+        <a href="#" class="text-gray-400 hover:text-gray-200 mx-2">Facebook</a>
+        <a href="#" class="text-gray-400 hover:text-gray-200 mx-2">Twitter</a>
+        <a href="#" class="text-gray-400 hover:text-gray-200 mx-2">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menu-btn').addEventListener('click', function() {
+      document.getElementById('menu').classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
